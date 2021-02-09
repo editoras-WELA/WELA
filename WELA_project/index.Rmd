@@ -22,7 +22,7 @@ knitr::include_graphics("stock-vector-sketch-color-portrait-of-jaguar-looking.jp
 
 
 
-**WELA: Women Editors in Latina America** 
+**WELA: Women Editors in Latin America** 
 
 Las mujeres deben escribir de ellas mismas: deben escribir sobre las mujeres y traer
 a las mujeres a la escritura, de donde han sido separadas tan violentamente como
