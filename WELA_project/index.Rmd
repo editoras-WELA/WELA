@@ -2,8 +2,8 @@
 title: "WELA"
 ---
 
-```{r out.width='50%', echo=FALSE, fig.align='center'}
-knitr::include_graphics("stock-vector-sketch-color-portrait-of-jaguar-looking.jpg")
+```{r out.width='75%', echo=FALSE, fig.align='center'}
+knitr::include_graphics("logo_WELA.jpeg")
 
 ```
 
