@@ -1,0 +1,76 @@
+---
+title: "WELA mapa"
+---
+
+
+A traves de nuestro mapa interactivo puedes buscar por palabras clave, ciudades, instituciones, disciplinas, idiomas, etc., y también filtrar los registros por área de investigación, país o posición (se refiere a la etapa general de la carrera de la experta).
+
+
+```{r include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo=FALSE, message = FALSE, warning = FALSE)
+```
+
+```{r}
+
+library(dplyr)
+library(leaflet)
+library(gsheet)
+
+```
+
+
+
+```{r}
+
+dat <- gsheet::gsheet2tbl("https://docs.google.com/spreadsheets/d/15sGVstF9ei0qbSUcvLeM0Ao_QmG1hnn8VvKiZgPHo6w/edit?usp=sharing")
+
+
+datos <- dat %>%
+  mutate(`Nombre / Nome` = paste(`Apellido /Sobrenome`, `Nombre / Nome`, sep = " ")) %>%
+  mutate(`Nombre / Nome` = ifelse(!is.na(Website), 
+                       paste0('<a href="', Website, '"target="_blank">', `Nombre / Nome`, '</a>'),
+                       `Nombre / Nome`)) %>%
+  dplyr::select(`Nombre / Nome`, Longitud, Latitud) %>%
+  mutate(Longitud = as.numeric(Longitud),
+         Latitud = as.numeric(Latitud))
+
+
+## jitter coords a bit so that points don't overlap completely in the map
+datos <- datos %>%
+  mutate(Longitud = jitter(Longitud, amount = 0.05),
+         Latitud = jitter(Latitud, amount = 0.05))
+
+```
+
+
+```{r}
+## could use CoordinateCleaner::cc_coun to check if coords within stated country
+# https://rdrr.io/cran/CoordinateCleaner/man/cc_coun.html
+
+```
+
+
+```{r out.width='100%'}
+
+icon.mw <- makeIcon(
+  iconUrl = "stock_vector_jaguar_set_vector.png",
+  iconWidth = 20, iconHeight = 20,
+  iconAnchorX = 10, iconAnchorY = 10
+)
+
+leaflet(datos) %>%
+  fitBounds(-176, -50, 176, 50) %>%
+  addProviderTiles(providers$CartoDB.Positron, 
+                   options = providerTileOptions(noWrap = TRUE)) %>% 
+  addMarkers(
+    ~Longitud, ~Latitud,
+    popup = ~`Nombre / Nome`,
+    icon = icon.mw
+    #clusterOptions = markerClusterOptions()
+  )
+
+```
+
+
+Last update: `r Sys.Date()`

@@ -1,0 +1,32 @@
+---
+title: "¿Por qué somos WELA?"
+---
+
+A través de esta base de datos nuestro objetivo es promover la participación de mujeres académicas/científicas latinoamericanas en las actividades de publicación y edición de revistas. 
+
+Queremos: 
+
+
+- Generar un directorio de libre y fácil acceso con información sobre las mujeres que actúan o que pueden actuar en la edición de publicaciones académicas en América Latina.
+
+- Incrementar la visibilidad y equidad de las mujeres en la academia promoviendo la detección de sesgos inconscientes y la discriminación invisible en el día a día en la academia latinoamericana. 
+
+- Incrementar la diversidad e igualdad en los equipos editoriales de revistas académicas en América latina.
+
+- Ayudar a identificar a mujeres académicas/científicas excepcionalmente calificadas que pueden formar parte de los comités editoriales, actuar como revisoras de manuscritos o invitarlas a escribir en números especiales en las revistas académicas de Latinoamérica. 
+
+- Apoyar la creación de eventos, cursos y generar programas enfocados en la formación de más científicas latinoamericanas que actúen en el ambiente editorial.
+
+- Promover la formación de asociaciones y redes de mujeres científicas a nivel regional para trabajar juntas por paridad en los puestos de liderazgo en las publicaciones científicas. 
+
+
+La base de datos fue una iniciativa de [Lina Caballero-Villalobos](https://www.parentinsciencecol.com/equipo-de-trabajo), [Karem López-Hervas](@KaremmLoHe) y [Luisa Liévano-Latorre]() mujeres científicas promoviendo cambios desde la cotidianidad.
+
+WELA cuenta con el apoyo de [Parent in Science Colombia](https://www.parentinsciencecol.com/equipo-de-trabajo) y STEM sin Fronteras. La base de datos es mantenida y actualizada por Lina Caballero-Villalobos.
+
+
+
+
+Esta base de datos está inspirada por iniciativas como: gage, Mitowomen, Women in Malaria, Women in Soil Science, Women in Microbiology y WiPara.
+
+Este sitio web está hecho con Rmarkdown  [Rmarkdown](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html) y el código está disponible públicamente en [Mitowomen](). 
