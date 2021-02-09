@@ -3,7 +3,7 @@ title: "WELA mapa"
 ---
 
 
-A traves de nuestro mapa interactivo puedes buscar por palabras clave, ciudades, instituciones, disciplinas, idiomas, etc., y también filtrar los registros por área de investigación, país o posición (se refiere a la etapa general de la carrera de la experta).
+A través de nuestro mapa interactivo puedes buscar por palabras clave, ciudades, instituciones, disciplinas, idiomas, etc., y también filtrar los registros por área de investigación, país o posición (etapa actual de la carrera de la experta).
 
 
 ```{r include=FALSE}

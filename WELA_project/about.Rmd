@@ -22,11 +22,11 @@ Queremos:
 
 La base de datos fue una iniciativa de [Lina Caballero-Villalobos](https://www.parentinsciencecol.com/equipo-de-trabajo), [Karem López-Hervas](@KaremmLoHe) y [Luisa Liévano-Latorre]() mujeres científicas promoviendo cambios desde la cotidianidad.
 
-WELA cuenta con el apoyo de [Parent in Science Colombia](https://www.parentinsciencecol.com/equipo-de-trabajo) y STEM sin Fronteras. La base de datos es mantenida y actualizada por Lina Caballero-Villalobos.
+WELA cuenta con el apoyo de [Parent in Science Colombia](https://www.parentinsciencecol.com/equipo-de-trabajo). La base de datos es mantenida y actualizada por Lina Caballero-Villalobos.
 
 
 
 
 Esta base de datos está inspirada por iniciativas como: gage, Mitowomen, Women in Malaria, Women in Soil Science, Women in Microbiology y WiPara.
 
-Este sitio web está hecho con Rmarkdown  [Rmarkdown](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html) y el código está disponible públicamente en [Mitowomen](). 
+Este sitio web está hecho con [Rmarkdown](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html) con base en el código de [Mitowomen](https://mitowomen.org/index.html). 
