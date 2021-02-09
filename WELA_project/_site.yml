@@ -2,14 +2,11 @@ name: "WeLa"
 output_dir: "docs"
 output:
   html_document:
-    theme: flatly
+    theme: paper
 navbar:
   title: "WELA"
   left:
-    - text: ""
-      icon: fa-home
-      href: index.html
-    - text: "Unete a WELA"
+    - text: "Únete a WELA"
       href: join.html
     - text: "Base de datos WELA"
       href: table.html
