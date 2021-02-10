@@ -14,3 +14,10 @@ navbar:
       href: about.html
     - text: "WELA mapa"
       href: map.html
+
+
+  right:
+    - icon: ion-social-twitter
+      href: https://twitter.com/editorasWELA
+    - icon: fa-envelope
+      href: editoraswela@gmail.com
