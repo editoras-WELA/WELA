@@ -10,7 +10,7 @@ navbar:
       href: join.html
     - text: "Base de datos WELA"
       href: table.html
-    - text: "Por qué WELA"
+    - text: "¿Por qué WELA?"
       href: about.html
     - text: "WELA mapa"
       href: map.html
