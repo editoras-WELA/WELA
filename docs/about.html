@@ -22,6 +22,18 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/ionicons-2.0.1/css/ionicons.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -67,6 +79,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 
 
@@ -285,7 +298,18 @@ $(document).ready(function () {
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="https://twitter.com/editorasWELA">
+    <span class="ion ion-social-twitter"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="editoraswela@gmail.com">
+    <span class="fas fa-envelope"></span>
+     
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -312,7 +336,7 @@ $(document).ready(function () {
 </ul>
 <p>La base de datos fue una iniciativa de <a href="https://www.researchgate.net/profile/Lina_Caballero2">Lina Caballero-Villalobos</a>, <a href="https://twitter.com/KaremmLoHe">Karem López-Hervas</a> y <a href="https://www.researchgate.net/profile/Luisa_Latorre">Luisa Liévano-Latorre</a> mujeres científicas promoviendo cambios desde la cotidianidad.</p>
 <p>WELA cuenta con el apoyo de <a href="https://www.parentinsciencecol.com">Parent in Science Colombia</a>. La base de datos es mantenida y actualizada por Lina Caballero-Villalobos.</p>
-<p>Puedes contactar con nosotras a través de nuestro correo electrónico <a href="mailto:editoraswela@gmail.com" class="email">editoraswela@gmail.com</a> o por nuestras redes sociales <a href="https://twitter.com/editorasWELA">editorasWELA</a>.</p>
+<p>Puedes contactar con nosotras a través de nuestro correo electrónico <a href="mailto:editoraswela@gmail.com">editoraswela@gmail.com</a> o por nuestras redes sociales <a href="https://twitter.com/editorasWELA">editorasWELA</a>.</p>
 <p>Esta base de datos está inspirada por iniciativas como: <a href="https://gage.500womenscientists.org/">gage</a>, <a href="https://mitowomen.org/index.html">Mitowomen</a>, <a href="https://www.womeninmalaria.org/">Women in Malaria</a>, <a href="https://franciskadevries.wordpress.com/women-in-soil-science/">Women in Soil Science</a> y <a href="https://wipara.weebly.com/">WiPara</a>.</p>
 <p>Este sitio web está hecho con <a href="https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html">Rmarkdown</a> con base en el código de <a href="https://mitowomen.org/index.html">Mitowomen</a>.</p>
 
@@ -325,7 +349,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
