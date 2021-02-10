@@ -3,7 +3,7 @@ title: "WELA"
 ---
 
 ```{r out.width='75%', echo=FALSE, fig.align='center'}
-knitr::include_graphics("logo_WELA.jpeg")
+knitr::include_graphics("WELA_logo.png")
 
 ```
 
