@@ -23,15 +23,6 @@
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
-<style type="text/css">
-  code{white-space: pre-wrap;}
-  span.smallcaps{font-variant: small-caps;}
-  span.underline{text-decoration: underline;}
-  div.column{display: inline-block; vertical-align: top; width: 50%;}
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-  ul.task-list{list-style: none;}
-    </style>
-
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
   pre:not([class]) {
@@ -76,7 +67,6 @@ h6 {
   text-align: left;
 }
 </style>
-
 
 
 
@@ -311,8 +301,8 @@ $(document).ready(function () {
 
 
 <p>¡Con un sencillo paso puedes registrarte!</p>
-<p>Para obtener más información, también puedes contactarnos en <a href="mailto:editoraswela@gmail.com">editoraswela@gmail.com</a> o <span class="citation">@wela</span> en Twitter.</p>
-<p>Tenemos un espacio de trabajo de Slack para impulsar la creación de una comunidad real y formación de redes entre editoras. Si está en la base de datos pero aún no ha recibido la invitación a Slack, por favor escribános.</p>
+<p>Para obtener más información puedes contactarnos en <a href="mailto:editoraswela@gmail.com" class="email">editoraswela@gmail.com</a> o <a href="https://twitter.com/editorasWELA">editorasWELA</a> en Twitter.</p>
+<p>Tendremos un espacio de trabajo de Slack para crear una comunidad real y formar redes entre investigadoras y porfesiones con interés en temas de edición de publicaciones científicas. Por favor escríbenos si tienes interés en participar en el Slack para enviarte la invitación.</p>
 <p>Por favor llena el siguiente formulario y empecemos un cambio <a href="https://docs.google.com/forms/d/e/1FAIpQLScuDy_4PolsRhNxopxVJltheqy7WQO7V0EflUafQ796VkY4mg/viewform">click here</a>.</p>
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScuDy_4PolsRhNxopxVJltheqy7WQO7V0EflUafQ796VkY4mg/viewform" width="100%" height="400px">
 </iframe>
@@ -326,7 +316,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

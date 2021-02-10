@@ -23,15 +23,6 @@
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
-<style type="text/css">
-  code{white-space: pre-wrap;}
-  span.smallcaps{font-variant: small-caps;}
-  span.underline{text-decoration: underline;}
-  div.column{display: inline-block; vertical-align: top; width: 50%;}
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-  ul.task-list{list-style: none;}
-    </style>
-
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
   pre:not([class]) {
@@ -76,7 +67,6 @@ h6 {
   text-align: left;
 }
 </style>
-
 
 
 
@@ -310,20 +300,20 @@ $(document).ready(function () {
 </div>
 
 
-<p>A través de esta base de datos nuestro objetivo es promover la participación de mujeres académicas/científicas latinoamericanas en las actividades de publicación y edición de revistas.</p>
+<p>El objetivo de esta base de datos es promover la participación de más mujeres latinoamericanas en las actividades de publicación y edición de revistas científicas.</p>
 <p>Queremos:</p>
 <ul>
-<li><p>Generar un directorio de libre y fácil acceso con información sobre las mujeres que actúan o que pueden actuar en la edición de publicaciones académicas en América Latina.</p></li>
-<li><p>Incrementar la visibilidad y equidad de las mujeres en la academia promoviendo la detección de sesgos inconscientes y la discriminación invisible en el día a día en la academia latinoamericana.</p></li>
-<li><p>Incrementar la diversidad e igualdad en los equipos editoriales de revistas académicas en América latina.</p></li>
-<li><p>Ayudar a identificar a mujeres académicas/científicas excepcionalmente calificadas que pueden formar parte de los comités editoriales, actuar como revisoras de manuscritos o invitarlas a escribir en números especiales en las revistas académicas de Latinoamérica.</p></li>
+<li><p>Generar un directorio de libre y fácil acceso con información sobre las mujeres que actúan o que pueden actuar en los equipos editoriales de publicaciones académicas en América Latina.</p></li>
+<li><p>Promover estrategias contra sesgos inconscientes y brechas de género en la participación de mujeres latinoamericanas en las labores editoriales y de publicaciones científicas.</p></li>
+<li><p>Incrementar la diversidad e igualdad en los equipos editoriales de revistas científicas en América latina.</p></li>
+<li><p>Ayudar a identificar a mujeres académicas/científicas excepcionalmente calificadas que pueden formar parte de los comités/consejos editoriales, actuar como revisoras de manuscritos o invitarlas a escribir artículos de revisión en las revistas académicas.</p></li>
 <li><p>Apoyar la creación de eventos, cursos y generar programas enfocados en la formación de más científicas latinoamericanas que actúen en el ambiente editorial.</p></li>
 <li><p>Promover la formación de asociaciones y redes de mujeres científicas a nivel regional para trabajar juntas por paridad en los puestos de liderazgo en las publicaciones científicas.</p></li>
 </ul>
-<p>La base de datos fue una iniciativa de <a href="https://www.parentinsciencecol.com/equipo-de-trabajo">Lina Caballero-Villalobos</a>, <a href="@KaremmLoHe">Karem López-Hervas</a> y <a href="">Luisa Liévano-Latorre</a> mujeres científicas promoviendo cambios desde la cotidianidad.</p>
-<p>WELA cuenta con el apoyo de <a href="https://www.parentinsciencecol.com/equipo-de-trabajo">Parent in Science Colombia</a>. La base de datos es mantenida y actualizada por Lina Caballero-Villalobos.</p>
-<p>Puedes contactar con nosotros a través de nuestro correo electrónico <a href="mailto:editoraswela@gmail.com">editoraswela@gmail.com</a> o por nuestras redes sociales <a href="@editorasWELA">WELA</a></p>
-<p>Esta base de datos está inspirada por iniciativas como: gage, Mitowomen, Women in Malaria, Women in Soil Science, Women in Microbiology y WiPara.</p>
+<p>La base de datos fue una iniciativa de <a href="https://www.researchgate.net/profile/Lina_Caballero2">Lina Caballero-Villalobos</a>, <a href="https://twitter.com/KaremmLoHe">Karem López-Hervas</a> y <a href="https://www.researchgate.net/profile/Luisa_Latorre">Luisa Liévano-Latorre</a> mujeres científicas promoviendo cambios desde la cotidianidad.</p>
+<p>WELA cuenta con el apoyo de <a href="https://www.parentinsciencecol.com">Parent in Science Colombia</a>. La base de datos es mantenida y actualizada por Lina Caballero-Villalobos.</p>
+<p>Puedes contactar con nosotras a través de nuestro correo electrónico <a href="mailto:editoraswela@gmail.com" class="email">editoraswela@gmail.com</a> o por nuestras redes sociales <a href="https://twitter.com/editorasWELA">editorasWELA</a>.</p>
+<p>Esta base de datos está inspirada por iniciativas como: <a href="https://gage.500womenscientists.org/">gage</a>, <a href="https://mitowomen.org/index.html">Mitowomen</a>, <a href="https://www.womeninmalaria.org/">Women in Malaria</a>, <a href="https://franciskadevries.wordpress.com/women-in-soil-science/">Women in Soil Science</a> y <a href="https://wipara.weebly.com/">WiPara</a>.</p>
 <p>Este sitio web está hecho con <a href="https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html">Rmarkdown</a> con base en el código de <a href="https://mitowomen.org/index.html">Mitowomen</a>.</p>
 
 
@@ -335,7 +325,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

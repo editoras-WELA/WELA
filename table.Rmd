@@ -4,7 +4,7 @@ title: "Base de datos WELA"
 Creamos una base de datos de mujeres expertas en publicaciones científicas con el fin de 
 construir una comunidad académica más amplia, diversa, inclusiva y justa en América Latina.
 
-Las mujeres que están en el directorio de WELA son científicas excepcionalmente calificados de diversas disciplinas. Cada una de ellas recibió el título de MSc y/o Ph.D, y muchas de ellas son docentes de instituciones de educación superior, investigadoras de institutos o actúan en empresas relacionadas con la educación y/o ciencia. Ellas ya han publicado y actuado como revisoras en revistas de impacto a nivel local, regional e internacional. Su continua formación las ha preparado para actuar como editoras/revisoras científicas.
+Las mujeres que están en el directorio de WELA son científicas excepcionalmente calificados de diversas disciplinas. Cada una de ellas recibió el título de MSc y/o Ph.D, y muchas de ellas son docentes de instituciones de educación superior, o investigadoras o actúan en empresas relacionadas con la educación y/o ciencia y tiene experiencia en el tema de publicación científica. Ellas ya han publicado y actuado como revisoras en revistas de impacto a nivel local, regional y/o internacional. Su continua formación las ha preparado para actuar como editoras/revisoras científicas.
 
 
 
