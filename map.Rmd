@@ -63,7 +63,7 @@ datos <- datos %>%
 ```{r out.width='100%'}
 
 icon.mw <- makeIcon(
-  iconUrl = "stock_vector_jaguar_set_vector.png",
+  iconUrl = "jaguar_footprint.png",
   iconWidth = 12, iconHeight = 12,
   iconAnchorX = 6, iconAnchorY = 6
 )
