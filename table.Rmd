@@ -1,6 +1,18 @@
 ---
 title: "Base de datos WELA"
 ---
+
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
 Creamos una base de datos de mujeres expertas en publicaciones científicas con el fin de 
 construir una comunidad académica más amplia, diversa, inclusiva y justa en América Latina.
 
