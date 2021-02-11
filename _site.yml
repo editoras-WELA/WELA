@@ -6,6 +6,9 @@ output:
 navbar:
   title: "WELA"
   left:
+    - text: ""
+      icon: fa-home
+      href: index.html
     - text: "Únete a WELA"
       href: join.html
     - text: "Base de datos WELA"
@@ -14,7 +17,6 @@ navbar:
       href: about.html
     - text: "WELA mapa"
       href: map.html
-
 
   right:
     - icon: ion-social-twitter
