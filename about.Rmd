@@ -1,6 +1,11 @@
 ---
 title: "¿Por qué somos WELA?"
 ---
+```{r out.width='75%', echo=FALSE, fig.align='center'}
+knitr::include_graphics("WELA_logo_3.png")
+
+```
+
 <style type="text/css">
   body{
   font-size: 12pt;
@@ -33,10 +38,10 @@ La base de datos fue una iniciativa de [Lina Caballero-Villalobos](https://www.r
 
 WELA cuenta con el apoyo de [Parent in Science Colombia](https://www.parentinsciencecol.com). La base de datos es mantenida y actualizada por Lina Caballero-Villalobos.
 
+Agradecemos la bella colaboración de [Edna M. Pinzón R.](ilustraemi.kairos@gmail.com)  por dar vida a la [imagen de WELA](https://www.instagram.com/ilustraemi_kairos/). Así como al [Dr. Gustavo Silva Arias](@gutasilva82) por su apoyo en ajustes de website de WELA.
+
 Puedes contactar con nosotras a través de nuestro correo electrónico editoraswela@gmail.com o por nuestras redes sociales [editorasWELA](https://twitter.com/editorasWELA).
 
 
 
-Esta base de datos está inspirada por iniciativas como: [gage](https://gage.500womenscientists.org/), [Mitowomen](https://mitowomen.org/index.html), [Women in Malaria](https://www.womeninmalaria.org/), [Women in Soil Science](https://franciskadevries.wordpress.com/women-in-soil-science/) y [WiPara](https://wipara.weebly.com/).
-
-Este sitio web está hecho con [Rmarkdown](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html) con base en el código de [Mitowomen](https://mitowomen.org/index.html). 
+Esta base de datos está inspirada por iniciativas como: [gage](https://gage.500womenscientists.org/), [Mitowomen](https://mitowomen.org/index.html), [Women in Malaria](https://www.womeninmalaria.org/), [Women in Soil Science](https://franciskadevries.wordpress.com/women-in-soil-science/) y [WiPara](https://wipara.weebly.com/). Este sitio web está hecho con [Rmarkdown](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html) con base en el código de [Mitowomen](https://mitowomen.org/index.html). 
