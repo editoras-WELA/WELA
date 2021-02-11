@@ -6,7 +6,16 @@ title: "WELA"
 knitr::include_graphics("WELA_logo.png")
 
 ```
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
 
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168723787-1"></script>

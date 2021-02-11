@@ -1,7 +1,16 @@
 ---
 title: "¿Por qué somos WELA?"
 ---
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
 
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 El objetivo de esta base de datos es promover la participación de más mujeres latinoamericanas en las actividades de publicación y edición de revistas científicas. 
 
 Queremos: 

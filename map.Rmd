@@ -2,7 +2,16 @@
 title: "WELA mapa"
 ---
 
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
 
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 A través de nuestro mapa interactivo puedes buscar por palabras clave, ciudades, instituciones, disciplinas, idiomas, etc., y también filtrar los registros por área de investigación, país o posición (etapa actual de la carrera de la experta).
 
 
@@ -55,8 +64,8 @@ datos <- datos %>%
 
 icon.mw <- makeIcon(
   iconUrl = "stock_vector_jaguar_set_vector.png",
-  iconWidth = 20, iconHeight = 20,
-  iconAnchorX = 10, iconAnchorY = 10
+  iconWidth = 12, iconHeight = 12,
+  iconAnchorX = 6, iconAnchorY = 6
 )
 
 leaflet(datos) %>%

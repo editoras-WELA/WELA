@@ -1,7 +1,16 @@
 ---
 title: "Únete a nuestra base de datos WELA"
 ---
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
 
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 ¡Con un sencillo paso puedes registrarte!
 
 Para obtener más información puedes contactarnos en editoraswela@gmail.com o [editorasWELA](https://twitter.com/editorasWELA) en Twitter.
