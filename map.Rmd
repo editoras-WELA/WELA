@@ -50,6 +50,7 @@ datos <- datos %>%
   mutate(Longitud = jitter(Longitud, amount = 0.05),
          Latitud = jitter(Latitud, amount = 0.05))
 
+  
 ```
 
 
