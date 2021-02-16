@@ -59,7 +59,7 @@ datos <- dat %>%
   
    dplyr::arrange(`¿Título obtenido en pregrado/licenciatura? / Qual foi o titulo obtido na graduação/ licenciatura?`) %>%
   mutate(`Estudios/Estudos` = paste(`¿Título obtenido en pregrado/licenciatura? / Qual foi o titulo obtido na graduação/ licenciatura?`,`¿Título obtenido en la Maestría? / Qual foi o titulo obtido no Mestrado?`, `¿Título obtenido en el doctorado? / Qual foi o titulo obtido no Doutorado?`, sep = ", ")) %>%
-  dplyr::select(`Nombre/Nome`, `Posición/Posição`, `País de residencia actual / País de residência atual`,`Estudios/Estudos`, `Área de trabajo / Área de trabalho`,`Universidad/Institución/Organización/Universidade/ Instituição/Organização actual`,`Idioma/Língua`, `E-mail`, Twitter, `Palabras clave / Palavras-chave`, `Experiencia como editora/Experiência de editor`) 
+  dplyr::select(`Nombre/Nome`, `Posición/Posição`, `Ciudad y país de residencia actual / Cidade e pais de residência atual`,`Estudios/Estudos`, `Área de trabajo / Área de trabalho`,`Universidad/Institución/Organización/Universidade/ Instituição/Organização actual`,`Idioma/Língua`, `E-mail`, Twitter, `Palabras clave / Palavras-chave`, `Experiencia como editora/Experiência de editor`) 
 
 ```
 
